@@ -117,11 +117,13 @@ h1 {
   margin-bottom: 2rem;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
+  html,
   body {
     margin: auto;
     width: auto;
-    font-size: 6%;
+    overflow-x: hidden;
+    overflow-y: hidden;
   }
 
   header {
