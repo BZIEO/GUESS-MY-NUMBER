@@ -124,6 +124,7 @@ h1 {
     width: auto;
     overflow-x: hidden;
     overflow-y: hidden;
+    align-items: center;
   }
 
   header {
@@ -150,5 +151,43 @@ h1 {
     align-items: center;
     font-size: 12px;
     margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  html,
+  body {
+    margin: auto;
+    width: auto;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    align-items: center;
+  }
+
+  header {
+    margin: auto;
+  }
+
+  .between {
+    font-size: 6px;
+  }
+
+  .again {
+    font-size: 8px;
+    padding: 10px;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 10px;
+    margin-top: 8px;
   }
 }
