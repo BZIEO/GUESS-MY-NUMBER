@@ -119,7 +119,6 @@ h1 {
 
 @media screen and (max-width: 480px) {
   body {
-    background-color: lightgreen;
     margin: auto;
     font-size: 6%;
   }
